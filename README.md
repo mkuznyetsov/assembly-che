@@ -1,7 +1,6 @@
 ### Clone the Repository
 ```sh
 git clone https://github.com/codenvy/assembly-che.git
-cd assembly-che
 ```
 ### Run the script, that clones all Codenvy repositories
 To run the script you need to generate an access token in your github account:
