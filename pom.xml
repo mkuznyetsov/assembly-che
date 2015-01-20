@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+
+    Copyright (c) 2012-2014 Codenvy, S.A.
+    All rights reserved. This program and the accompanying materials
+    are made available under the terms of the Eclipse Public License v1.0
+    which accompanies this distribution, and is available at
+    http://www.eclipse.org/legal/epl-v10.html
+
+    Contributors:
+      Codenvy, S.A. - initial API and implementation
+
+-->
+<project xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://maven.apache.org/POM/4.0.0"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+    <groupId>com.codenvy</groupId>
+    <artifactId>codenvy-sdk-parent</artifactId>
+    <version>1.0-SNAPSHOT</version>
+    <packaging>pom</packaging>
+    <name>Codenvy SDK projects parent</name>
+
+    <repositories>
+        <repository>
+            <id>codenvy-public-repo</id>
+            <name>codenvy public</name>
+            <url>https://maven.codenvycorp.com/content/groups/public/</url>
+        </repository>
+    </repositories>
+    <pluginRepositories>
+        <pluginRepository>
+            <id>codenvy-public-repo2</id>
+            <name>codenvy public</name>
+            <url>https://maven.codenvycorp.com/content/groups/public/</url>
+        </pluginRepository>
+    </pluginRepositories>
+    <modules>
+        <module>maven-parent-pom</module>                
+        <module>commons</module>        
+        <module>platform-api</module>
+        <module>platform-api-client-gwt</module>
+        <module>ide</module>
+        <module>security</module>
+        <module>vfs-impl</module>
+        <module>plugin-java</module>
+        <module>plugin-editor-codemirror</module>
+        <module>plugin-editor-orion</module>
+        <module>plugin-php</module>
+        <module>test-framework</module>
+        <module>plugin-git</module>
+        <module>plugin-datasource</module>
+        <module>plugin-angularjs</module>
+        <module>plugin-bower</module>
+        <module>plugin-gulp</module>
+        <module>plugin-grunt</module>
+        <module>plugin-npm</module>
+        <module>plugin-yeoman</module>
+        <module>plugin-cpp</module>
+        <module>plugin-ruby</module>
+        <module>plugin-go</module>
+        <module>plugin-python</module>       
+        <module>plugin-tour</module>
+
+        <module>plugin-sdk</module>
+        <module>sdk</module>
+    </modules>      
+
+</project>
