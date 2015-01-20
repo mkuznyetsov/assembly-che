@@ -4,7 +4,7 @@ git clone https://github.com/codenvy/assembly-che.git
 cd assembly-che
 ```
 ### Run the script, that clones all Codenvy repositories
-To run the script you need to generate an access token in your github account
+To run the script you need to generate an access token in your github account:
 https://help.github.com/articles/creating-an-access-token-for-command-line-use/
 
 Set github token environment variable
