@@ -77,7 +77,7 @@ mvn sortpom:sort
 
 ####Define a Module
 
-Navigate to sdk/assembly-ide/src/main/resources/com/codenvy/ide and open IDE.gwt.xml which species the GWT application and defines all modules. This defines all of the models for the application. When GWT boots, it injects the classes defined in the gwt.xml file from your extension class, HellowWorldExtension. You need to add an inheritance to the extension, provided that the project gwt module is located at /src/main/resources/com/codenvy/ide/ext/helloworld/HelloWorldExtension.gwt.xml:
+Navigate to sdk/assembly-ide/src/main/resources/com/codenvy/ide and open IDE.gwt.xml which species the GWT application and defines all modules. This defines all of the models for the application. When GWT boots, it injects the classes defined in the gwt.xml file from your extension class, HellowWorldExtension. You need to add an inheritance to the extension, provided that the project gwt module is located at */src/main/resources/com/codenvy/ide/ext/helloworld/HelloWorldExtension.gwt.xml*:
 
 ```sh
 cd ~/sdk/assembly-ide/src/main/resources/com/codenvy/ide
