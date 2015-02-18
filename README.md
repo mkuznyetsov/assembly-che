@@ -22,7 +22,7 @@ Run the  script
 ```sh
 mvn clean install
 cd sdk
-./che [ start | stop ]
+./che.sh [ start | stop ]
 ```
 
 Che will be available at ```localhost:8080```
