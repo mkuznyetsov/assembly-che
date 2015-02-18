@@ -67,7 +67,7 @@ as:
   <version>1.0.0-SNAPSHOT</version>
 </dependency>
 ```
-Note that the dependenies has to be sorted alphabetically. The dependencies without scope provided come first, and then scope provided second. The best way here is to sort pom.xml just after adding the dependency to make sure it is OK:
+Note that the dependenies have to be sorted alphabetically. The dependencies without scope provided come first, and then scope provided second. The best way here is to sort pom.xml just after adding the dependency to make sure it is OK:
 
 ```sh
 mvn sortpom:sort
