@@ -1,0 +1,103 @@
+#Source repo
+assembly-che/
+cdec/
+cli/
+cmf/
+codenvy-dev-resources/
+commons/
+dockerfiles/
+eclipse-plugin/
+everrest/
+factories/
+ide/
+maven-depmgt-pom/
+maven-parent-pom/
+platform-api-client-gwt/
+platform-api-client-java/
+platform-api/
+plugin-angularjs/
+plugin-bower/
+plugin-contribution/
+plugin-cpp/
+plugin-datasource/
+plugin-editor-codemirror/
+plugin-editor-orion/
+plugin-git/
+plugin-go/
+plugin-grunt/
+plugin-gulp/
+plugin-java/
+plugin-npm/
+plugin-php/
+plugin-python/
+plugin-ruby/
+plugin-sdk/
+plugin-tour/
+plugin-wso2/
+plugin-yeoman/
+sdk/
+security/
+swagger-ui/
+test-framework/
+testRepository/
+user-dashboard/
+vfs-impl/
+
+# Eclipse  #
+###################
+
+.classpath
+.project
+.settings/
+target/
+bin/
+test-output/
+
+# Idea #
+##################
+*.iml
+*.ipr
+*.iws
+.idea/
+
+# Compiled source #
+###################
+*.com
+*.class
+*.dll
+*.exe
+*.o
+*.so
+*.sh
+
+# Packages #
+############
+# it's better to unpack these files and commit the raw source
+# git has its own built in compression methods
+*.7z
+*.dmg
+*.gz
+*.iso
+*.jar
+*.rar
+*.tar
+*.zip
+*.war
+*.ear
+
+
+
+# Logs and databases #
+######################
+*.log
+*.sql
+*.sqlite
+
+# OS generated files #
+######################
+.DS_Store
+ehthumbs.db
+Icon?
+Thumbs.db
+*/overlays
+*~
