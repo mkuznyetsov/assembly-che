@@ -20,8 +20,7 @@ Run the  script
 
 ### Build and Run Che
 ```sh
-mvn clean install
-cd sdk
+./build.sh
 ./che.sh [ start | stop ]
 ```
 
