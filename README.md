@@ -21,7 +21,7 @@ Run the  script
 ### Build and Run Che
 ```sh
 ./build.sh
-./che.sh [ start | stop ]
+./sdk/assembly-sdk/target/tomcat-ide/bin/che.sh [ start | stop ]
 ```
 
 Che will be available at ```localhost:8080```
